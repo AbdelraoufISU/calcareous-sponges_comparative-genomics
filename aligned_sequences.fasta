@@ -1,0 +1,1744 @@
+# fasta atp9_mrna.fasta atp9_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: atp9_mrna.fasta
+  1>>>atp9_mrna - 397 nt
+Library: atp9_dna.fasta
+      730 residues in     1 sequences
+
+Statistics: (shuffled [52]) MLE statistics: Lambda= 0.0737;  K=0.000228
+ statistics sampled from 1 (1) to 52 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.070
+
+The best scores are:                                      opt bits E(1)
+nad9_dna                                       ( 730) [f] 1572 184.3 9.8e-51
+nad9_dna                                       ( 730) [r]   80 25.6  0.0056
+
+>>nad9_dna                                                (730 nt)
+ initn: 1571 init1: 1571 opt: 1572  Z-score: 943.3  bits: 184.3 E(1): 9.8e-51
+banded Smith-Waterman score: 1572; 99.4% identity (99.4% similar) in 318 nt overlap (68-385:367-684)
+
+        40        50        60        70        80        90       
+atp9_m AAATAAAAAAAAGAAAGAAAAAAGAAAAAAAAAGAAAGAAAGAAAGAATAAATATCTAGG
+                                     ::::::::::::::::::::::::::::::
+nad9_d TACGGACACGTTTCTGTACACACCAGTAGCAAAGAAAGAAAGAAAGAATAAATATCTAGG
+        340       350       360       370       380       390      
+
+       100       110       120       130       140       150       
+atp9_m AGGCCTAGGCTCCCGTCTCCAACGGGAACAGGTGGGCTAAATTCCACTCCGAAGAATCCG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad9_d AGGCCTAGGCTCCCGTCTCCAACGGGAACAGGTGGGCTAAATTCCACTCCGAAGAATCCG
+        400       410       420       430       440       450      
+
+       160       170       180       190       200       210       
+atp9_m CGCGACTCATTGGAGCTGGCTGCGCTACCGTAGGGTGCGCAGGCAGCGGAGCCGGAATTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad9_d CGCGACTCATTGGAGCTGGCTGCGCTACCGTAGGGTGCGCAGGCAGCGGAGCCGGAATTG
+        460       470       480       490       500       510      
+
+       220       230       240       250       260       270       
+atp9_m GAAGCCTATTTGGATCTCTGGTATTAGGAATAGCTCGAAACCCTCACCTAGAAAATGCTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad9_d GAAGCCTATTTGGATCTCTGGTATTAGGAATAGCTCGAAACCCTCACCTAGAAAATGCTC
+        520       530       540       550       560       570      
+
+       280       290       300       310       320       330       
+atp9_m TATTTCGTTACGCAGTAGTTGGTTTTGCCTTAAGTGAAGCTATGGGTCTGCTGTCTCTTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad9_d TATTTCGTTACGCAGTAGTTGGTTTTGCCTTAAGTGAAGCTATGGGTCTGCTGTCTCTTA
+        580       590       600       610       620       630      
+
+       340       350       360       370       380       390       
+atp9_m TGGTAGCGTTCCTCCTTTTGTTTGGATAAAAAAAAAAAAAAAAAAAGAGGAGAGATCAGT
+       :::::::::::::::::::::::::::::::::::: ::::::::: :            
+nad9_d TGGTAGCGTTCCTCCTTTTGTTTGGATAAAAAAAAACAAAAAAAAACAAACAAAACAAAA
+        640       650       660       670       680       690      
+
+nad9_d CAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAA
+        700       710       720       730
+
+>--
+ initn: 120 init1: 120 opt: 160  Z-score: 131.9  bits: 34.1 E(1): 1.5e-05
+banded Smith-Waterman score: 160; 85.1% identity (85.1% similar) in 47 nt overlap (22-68:685-730)
+
+                        10        20        30        40        50 
+atp9_m          AAGATAAATAAAATAAAATAAAATAAAATAAAAAAAAAAATAAAAAAAAGA
+                                     :: :::: :::: :::::: :::::::: :
+nad9_d TGTTTGGATAAAAAAAAACAAAAAAAAACAAACAAAACAAAACAAAAAACAAAAAAAA-A
+          660       670       680       690       700       710    
+
+              60        70        80        90       100       110 
+atp9_m AAGAAAAAAGAAAAAAAAAGAAAGAAAGAAAGAATAAATATCTAGGAGGCCTAGGCTCCC
+       :: :::::: :::::::                                           
+nad9_d AACAAAAAAAAAAAAAA                                           
+           720       730                                           
+
+>>nad9_dna                                                (730 nt)
+rev-comp initn:  70 init1:  70 opt:  80  Z-score: 85.9  bits: 25.6 E(1): 0.0056
+banded Smith-Waterman score: 83; 86.4% identity (86.4% similar) in 22 nt overlap (40-19:4-25)
+
+      70        60        50        40        30        20         
+atp9_- TTTTTTTTTCTTTTTTCTTTCTTTTTTTTATTTTTTTTTTTATTTTATTTTATTTTATTT
+                                     : :: :: ::::::::::::::        
+nad9_d                            TGTTGTTGTTGTTTATTTTATTTTAAATCGCAA
+                                          10        20        30   
+
+      10                                                           
+atp9_- TATTTATCTT                                                  
+                                                                   
+nad9_d GTCAAACGGGCACATGTGCCCAATATTGTGACGGCGATTAGTAATCGTCTTTTCGCTGAG
+            40        50        60        70        80        90   
+
+
+
+397 residues in 1 query   sequences
+730 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:54 2024 done: Tue Sep 24 23:50:54 2024
+ Total Scan time:  0.070 Total Display time:  0.000
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta cob_mrna.fasta cob_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: cob_mrna.fasta
+  1>>>cob_mrna - 2714 nt
+Library: cob_dna.fasta
+     2535 residues in     1 sequences
+
+Statistics: (shuffled [72]) MLE statistics: Lambda= 0.0755;  K=3.366e-05
+ statistics sampled from 1 (1) to 72 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.5), E-opt: 0.05 (0.5), width:  16
+ Scan time:  0.250
+
+The best scores are:                                      opt bits E(1)
+cob_dna                                        (2535) [f] 10705 1185.3       0
+cob_dna                                        (2535) [r]   60 26.0   0.097
+
+>>cob_dna                                                 (2535 nt)
+ initn: 7990 init1: 5710 opt: 10705  Z-score: 6328.5  bits: 1185.3 E(1):    0
+banded Smith-Waterman score: 10705; 99.6% identity (99.6% similar) in 2165 nt overlap (446-2606:109-2270)
+
+         420       430       440       450       460       470     
+cob_mr TCTTCACTTCATCAGATCAAAACGACCAAGAAAAAAAAAAAAAACAAAGAAGAAAGAAAG
+                                     :: :::::::::::::::::::::::::::
+cob_dn TCGATGACATTGCCAACGGTATCCATTTTAAACAAAAAAAAAAACAAAGAAGAAAGAAAG
+       80        90       100       110       120       130        
+
+         480       490       500       510       520       530     
+cob_mr AAAAGAGAAGAAAAGAAAGGAAAAAAAAAAGAAAGAAAGAAAGAAAAAACAAAACAAAAA
+       :::::::::::::::::::: :::::::::::::::::::::::::::::::::::::::
+cob_dn AAAAGAGAAGAAAAGAAAGG-AAAAAAAAAGAAAGAAAGAAAGAAAAAACAAAACAAAAA
+      140       150        160       170       180       190       
+
+         540       550       560       570       580       590     
+cob_mr AAAAAGAAAGAAAGAAAAAGAGAAATGAGTAAGTACAACCAACCATAAAGAAATTGGAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn AAAAAGAAAGAAAGAAAAAGAGAAATGAGTAAGTACAACCAACCATAAAGAAATTGGAAC
+       200       210       220       230       240       250       
+
+         600       610       620       630       640       650     
+cob_mr TCTTTATATCTTCAACCAGCAACTTAGCTTACCAGGGTCAGGTTTAGAGGGCTTTCCTGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TCTTTATATCTTCAACCAGCAACTTAGCTTACCAGGGTCAGGTTTAGAGGGCTTTCCTGA
+       260       270       280       290       300       310       
+
+         660       670       680       690       700       710     
+cob_mr CGCCGATGGAAGAGCTATGGGTTTTAGATCACATGATTGTACATTATCAACTTTGATATA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn CGCCGATGGAAGAGCTATGGGTTTTAGATCACATGATTGTACATTATCAACTTTGATATA
+       320       330       340       350       360       370       
+
+         720       730       740       750       760       770     
+cob_mr TAATAATTTTTCTGTTGGTACGCTTGTATTCCTAGCTCTTATTGCACTTGTGTTGGTGTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TAATAATTTTTCTGTTGGTACGCTTGTATTCCTAGCTCTTATTGCACTTGTGTTGGTGTC
+       380       390       400       410       420       430       
+
+         780       790       800       810       820       830     
+cob_mr AAATTACAAATTTGGGGGTGAGTCTCAACTCCACATAGATACTATTCCTGAAGAGGGAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn AAATTACAAATTTGGGGGTGAGTCTCAACTCCACATAGATACTATTCCTGAAGAGGGAAG
+       440       450       460       470       480       490       
+
+         840       850       860       870       880       890     
+cob_mr GGAGCAGCTTTCTAGCAGACACTCTTCGCATAAGCGCAAAAAGCGGGAGAGGTCTGGGGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn GGAGCAGCTTTCTAGCAGACACTCTTCGCATAAGCGCAAAAAGCGGGAGAGGTCTGGGGG
+       500       510       520       530       540       550       
+
+         900       910       920       930       940       950     
+cob_mr CAGCAGGGGGTCATACTTGATCATTCAGAAAGACAATACGCGGGTCTGCTTTCTGGCCAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn CAGCAGGGGGTCATACTTGATCATTCAGAAAGACAATACGCGGGTCTGCTTTCTGGCCAC
+       560       570       580       590       600       610       
+
+         960       970       980       990      1000      1010     
+cob_mr CAAACGAGGGACCATTACTCATGCTTCTTTCATCGGTTCTCTCGGATTAGTCAAGGTAGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn CAAACGAGGGACCATTACTCATGCTTCTTTCATCGGTTCTCTCGGATTAGTCAAGGTAGA
+       620       630       640       650       660       670       
+
+        1020      1030      1040      1050      1060      1070     
+cob_mr TGAGCTGGGAATAAGTCCAAGAAGTTGTCTAAACCCTTGGTCCCACTCTTTAGCTGGACC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TGAGCTGGGAATAAGTCCAAGAAGTTGTCTAAACCCTTGGTCCCACTCTTTAGCTGGACC
+       680       690       700       710       720       730       
+
+        1080      1090      1100      1110      1120      1130     
+cob_mr GTCTCAATATTTTGCCCGGTTTAGCGGCCTATTGAACAGCAAATTTTTCTCGAACATATG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn GTCTCAATATTTTGCCCGGTTTAGCGGCCTATTGAACAGCAAATTTTTCTCGAACATATG
+       740       750       760       770       780       790       
+
+        1140      1150      1160      1170      1180      1190     
+cob_mr GGGCTCGGAGGAATTTTATAACCAATATATAGTTTTTATGGTTAAGCCCGGAAGTTCTGT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn GGGCTCGGAGGAATTTTATAACCAATATATAGTTTTTATGGTTAAGCCCGGAAGTTCTGT
+       800       810       820       830       840       850       
+
+        1200      1210      1220      1230      1240      1250     
+cob_mr ATCTGCCCCAGGGGGCCTAAGTTGGAAAAACAGAGCGCGGAGGAAAAAAAGATATCCTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn ATCTGCCCCAGGGGGCCTAAGTTGGAAAAACAGAGCGCGGAGGAAAAAAAGATATCCTTT
+       860       870       880       890       900       910       
+
+        1260      1270      1280      1290      1300      1310     
+cob_mr TGCCCCCTGGGATCCTCTCTTAGATCGTAACCTTAAGCTAAGAACTATGAAAATTCCTCC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TGCCCCCTGGGATCCTCTCTTAGATCGTAACCTTAAGCTAAGAACTATGAAAATTCCTCC
+       920       930       940       950       960       970       
+
+        1320      1330      1340      1350      1360      1370     
+cob_mr AGAAGTTGGAGCTGAACCTTTATTTCCTTCAGAATCCTATTCTAGTTTAACTAACTGTAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn AGAAGTTGGAGCTGAACCTTTATTTCCTTCAGAATCCTATTCTAGTTTAACTAACTGTAG
+       980       990      1000      1010      1020      1030       
+
+        1380      1390      1400      1410      1420      1430     
+cob_mr GAGGCTGAGAACCTACAAGATTAAGCCGATGGGGCTGTGAGGACTTTCGGACCAGGATTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn GAGGCTGAGAACCTACAAGATTAAGCCGATGGGGCTGTGAGGACTTTCGGACCAGGATTC
+      1040      1050      1060      1070      1080      1090       
+
+        1440      1450      1460      1470      1480      1490     
+cob_mr TGAGGATGGAGGCACATGAGTTTAGTTTTGGCCCATTTCCTTATATATTAGCTTTTCTAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TGAGGATGGAGGCACATGAGTTTAGTTTTGGCCCATTTCCTTATATATTAGCTTTTCTAC
+      1100      1110      1120      1130      1140      1150       
+
+        1500      1510      1520      1530      1540      1550     
+cob_mr TGTATCTATTAAAGTCATCTTTTTGATTTTTGTACAGCAGCGGCAGCATCCCTTCGTTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TGTATCTATTAAAGTCATCTTTTTGATTTTTGTACAGCAGCGGCAGCATCCCTTCGTTTT
+      1160      1170      1180      1190      1200      1210       
+
+        1560      1570      1580      1590      1600      1610     
+cob_mr ACTATTGGTGTCTTGGACCCTTGGTCCTTATATATATAACCTCTGGAGGTCCTCTAGGGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn ACTATTGGTGTCTTGGACCCTTGGTCCTTATATATATAACCTCTGGAGGTCCTCTAGGGG
+      1220      1230      1240      1250      1260      1270       
+
+        1620      1630      1640      1650      1660      1670     
+cob_mr TTCAAAAAAAAAAAGGAGTATCGTTGGGGGTTGTTAGAGCTCTTAAAAGCATTCTTTCGG
+       :::  :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TTC--AAAAAAAAAGGAGTATCGTTGGGGGTTGTTAGAGCTCTTAAAAGCATTCTTTCGG
+      1280        1290      1300      1310      1320      1330     
+
+        1680      1690      1700      1710      1720      1730     
+cob_mr ACCAGCACTCCCACTTCCTCCACCTGGAGGTGAAATGGAGGGTCTTTTTTAGGTTTAACC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn ACCAGCACTCCCACTTCCTCCACCTGGAGGTGAAATGGAGGGTCTTTTTTAGGTTTAACC
+        1340      1350      1360      1370      1380      1390     
+
+        1740      1750      1760      1770      1780      1790     
+cob_mr TTTTTAAGACAAACTCTCTCAGGGTGGGCCTTAGCGACTCGCTATATTCCTGAAACTAAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TTTTTAAGACAAACTCTCTCAGGGTGGGCCTTAGCGACTCGCTATATTCCTGAAACTAAT
+        1400      1410      1420      1430      1440      1450     
+
+        1800      1810      1820      1830      1840      1850     
+cob_mr TTGGCCTTTTATTCTTTATTATATACAGAAAATATTGTAACAAATGGGTGATTAATTCGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TTGGCCTTTTATTCTTTATTATATACAGAAAATATTGTAACAAATGGGTGATTAATTCGA
+        1460      1470      1480      1490      1500      1510     
+
+        1860      1870      1880      1890      1900      1910     
+cob_mr TTCTTACATGTTTGGGGAGCAAATAGGTTAATGGCAGGAATAGCTTTTCATGCGGGTCGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TTCTTACATGTTTGGGGAGCAAATAGGTTAATGGCAGGAATAGCTTTTCATGCGGGTCGA
+        1520      1530      1540      1550      1560      1570     
+
+        1920      1930      1940      1950      1960      1970     
+cob_mr ACTCTTCTCTTTGGATTTTTACGTCGTCCAGGAATTTGGATAACTGGATTTTTACTTTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn ACTCTTCTCTTTGGATTTTTACGTCGTCCAGGAATTTGGATAACTGGATTTTTACTTTTT
+        1580      1590      1600      1610      1620      1630     
+
+        1980      1990         2000      2010      2020      2030  
+cob_mr TCTTTAACAGCTGCCTCTGCG---TTTTTTGGCTATGTGTTACCTTGAGGTAATATATCA
+       :::::::::::::::::::::   ::::::::::::::::::::::::::::::::::::
+cob_dn TCTTTAACAGCTGCCTCTGCGTTTTTTTTTGGCTATGTGTTACCTTGAGGTAATATATCA
+        1640      1650      1660      1670      1680      1690     
+
+           2040      2050      2060      2070      2080      2090  
+cob_mr TTCTGGGCGGCCACTGTTATTACTAGCCTAGTGGGAACAGTTCCTGGGGGAGGTCGTATC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TTCTGGGCGGCCACTGTTATTACTAGCCTAGTGGGAACAGTTCCTGGGGGAGGTCGTATC
+        1700      1710      1720      1730      1740      1750     
+
+           2100      2110      2120      2130      2140       2150 
+cob_mr TTGGTTGAATGGTTATGGGGGGGGACCTGTTTGAATACTCCAACATTAACACGA-TTTTT
+       :::::::::::::::::::::::::::::::::::::::::::::::::::::: :::::
+cob_dn TTGGTTGAATGGTTATGGGGGGGGACCTGTTTGAATACTCCAACATTAACACGATTTTTT
+        1760      1770      1780      1790      1800      1810     
+
+            2160      2170      2180      2190      2200      2210 
+cob_mr TTCTCTCCACTTTCTACTCCCCTTATTAGCCTGACTAGCTATTATTTTTCATATTTTATT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TTCTCTCCACTTTCTACTCCCCTTATTAGCCTGACTAGCTATTATTTTTCATATTTTATT
+        1820      1830      1840      1850      1860      1870     
+
+            2220      2230      2240      2250      2260      2270 
+cob_mr ACTACACCAAGAAGGATCATCAAACCCCTCTAGATCTTTGGTGGGCTCTTACCCATTAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn ACTACACCAAGAAGGATCATCAAACCCCTCTAGATCTTTGGTGGGCTCTTACCCATTAAC
+        1880      1890      1900      1910      1920      1930     
+
+            2280      2290      2300      2310      2320      2330 
+cob_mr TCCCTCTGCCCTATGGCGCGATTTAGTATGCTGAATCACCCTCAGGGTAATCTGCACTAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TCCCTCTGCCCTATGGCGCGATTTAGTATGCTGAATCACCCTCAGGGTAATCTGCACTAG
+        1940      1950      1960      1970      1980      1990     
+
+            2340      2350      2360      2370      2380      2390 
+cob_mr TCTATGTATATGTCATCTTTTTTTTCTCTTAGAACATCCTGAAAATTGACGACCAGCGGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TCTATGTATATGTCATCTTTTTTTTCTCTTAGAACATCCTGAAAATTGACGACCAGCGGA
+        2000      2010      2020      2030      2040      2050     
+
+            2400      2410      2420      2430      2440      2450 
+cob_mr CCCCTTATCTACTCCTAGACATATTACCCCTGATTGGTACTTTCTAGTTCCATATGCTAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn CCCCTTATCTACTCCTAGACATATTACCCCTGATTGGTACTTTCTAGTTCCATATGCTAT
+        2060      2070      2080      2090      2100      2110     
+
+            2460      2470      2480      2490      2500      2510 
+cob_mr TTTGCGTTCAGTCCCTCACCGAGAAGGGGGGGTAGTCGCCTTATTCCTAGTAATTATTTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TTTGCGTTCAGTCCCTCACCGAGAAGGGGGGGTAGTCGCCTTATTCCTAGTAATTATTTC
+        2120      2130      2140      2150      2160      2170     
+
+            2520      2530      2540      2550      2560      2570 
+cob_mr TCCTTTGATTATATTTTTACCTAGACTATCTGACAATCGATGGGTAGGGCCCCCCTACTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cob_dn TCCTTTGATTATATTTTTACCTAGACTATCTGACAATCGATGGGTAGGGCCCCCCTACTT
+        2180      2190      2200      2210      2220      2230     
+
+            2580      2590      2600      2610      2620      2630 
+cob_mr CATTTTTTGAGGGTGAGTACTCACTCTATCTACCCGCACCAATTAACTCCCTCTGACCTA
+       :::::::::::::::::::::::::::::::::::                         
+cob_dn CATTTTTTGAGGGTGAGTACTCACTCTATCTACCCTGTCCTTCATTGGGGCCCGTCCAGC
+        2240      2250      2260      2270      2280      2290     
+
+            2640      2650      2660      2670      2680      2690 
+cob_mr TGGCGCGATATAGTATGCTGAATCACCCTCAGGGTAATCTGCACTAGTCTATGTATATGT
+                                                                   
+cob_dn TTTTGAGCCCTACTTGACTAGGGGTCGACTATTAGCTCCTTTTTATTTTTTTTGGGTGGG
+        2300      2310      2320      2330      2340      2350     
+
+>>cob_dna                                                 (2535 nt)
+rev-comp initn:  60 init1:  60 opt:  60  Z-score: 63.3  bits: 26.0 E(1): 0.097
+banded Smith-Waterman score: 65; 57.8% identity (57.8% similar) in 64 nt overlap (1633-1570:1209-1269)
+
+       1660      1650      1640      1630      1620      1610      
+cob_m- TTTTAAGAGCTCTAACAACCCCCAACGATACTCCTTTTTTTTTTTGAACCCCTAGAGGAC
+                                     :: : ::::  : :::    : :   ::::
+cob_dn TTTGATTTTTGTACAGCAGCGGCAGCATCCCTTCGTTTTACTATTGGTGTCTT---GGAC
+     1180      1190      1200      1210      1220      1230        
+
+       1600      1590      1580      1570      1560      1550      
+cob_m- CTCCAGAGGTTATATATATAAGGACCAAGGGTCCAAGACACCAATAGTAAAACGAAGGGA
+       :    :   ::::::::::::   :    :::::                          
+cob_dn CCTTGGTCCTTATATATATAACCTCTGGAGGTCCTCTAGGGGTTCAAAAAAAAAGGAGTA
+        1240      1250      1260      1270      1280      1290     
+
+       1540      1530      1520      1510      1500      1490      
+cob_m- TGCTGCCGCTGCTGTACAAAAATCAAAAAGATGACTTTAATAGATACAGTAGAAAAGCTA
+                                                                   
+cob_dn TCGTTGGGGGTTGTTAGAGCTCTTAAAAGCATTCTTTCGGACCAGCACTCCCACTTCCTC
+        1300      1310      1320      1330      1340      1350     
+
+
+
+2714 residues in 1 query   sequences
+2535 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:54 2024 done: Tue Sep 24 23:50:54 2024
+ Total Scan time:  0.250 Total Display time:  0.010
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta cox1_mrna.fasta cox1_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: cox1_mrna.fasta
+  1>>>cox1_mrna - 1668 nt
+Library: cox1_dna.fasta
+     1561 residues in     1 sequences
+
+Statistics: (shuffled [142]) MLE statistics: Lambda= 0.0749;  K=7.005e-05
+ statistics sampled from 1 (1) to 142 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.160
+
+The best scores are:                                      opt bits E(1)
+cox1_dna                                       (1561) [f] 4930 550.3 5.8e-160
+cox1_dna                                       (1561) [r]  261 45.6 4.8e-08
+
+>>cox1_dna                                                (1561 nt)
+ initn: 7159 init1: 4585 opt: 4930  Z-score: 2904.3  bits: 550.3 E(1): 5.8e-160
+banded Smith-Waterman score: 7531; 98.4% identity (98.4% similar) in 1577 nt overlap (12-1586:2-1561)
+
+               10        20        30        40        50        60
+cox1_m AAAGAAAGAAAAGAAGAAGAAGAAAAAAAAAGAAGAAAGAAAGAAAAAGAAAAAAAAAAC
+                  : ::::::::::: :::::: ::: :::::::::: : ::: :::::: 
+cox1_d           GAAAAGAAGAAGAAGAAAAAAAAAG-AAGAAAGAAAGAAAAAGAAAAAAA
+                         10        20         30        40         
+
+                 70        80        90       100       110        
+cox1_m AACA--AAAAAAAAAGAAAAAAGAAAAAAAAAGAAGAAGGAAATGAGTAAGTACAACCAA
+       ::::  ::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d AACAACAAAAAAAAAGAAAAAAGAAAAAAAAAGAAGAAGGAAATGAGTAAGTACAACCAA
+      50        60        70        80        90       100         
+
+      120       130       140       150       160       170        
+cox1_m CCATAAAGAAATTGGAGCTCTTTATATGATTTTTGGGGGGTTAGCAGGATCTGTTGGGGC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d CCATAAAGAAATTGGAGCTCTTTATATGATTTTTGGGGGGTTAGCAGGATCTGTTGGGGC
+     110       120       130       140       150       160         
+
+      180       190       200       210       220       230        
+cox1_m TGCCTTCTCTTTAGTCCTACGCTGAGAGTTGTCTTCTCCCCTTTCAGTTTTAGGAGATGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d TGCCTTCTCTTTAGTCCTACGCTGAGAGTTGTCTTCTCCCCTTTCAGTTTTAGGAGATGG
+     170       180       190       200       210       220         
+
+      240       250       260       270       280       290        
+cox1_m AACACTATATAACGCTGCAGTAACCAGACACGCATTGATTATGATTTTCCTCTTTTTGAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d AACACTATATAACGCTGCAGTAACCAGACACGCATTGATTATGATTTTCCTCTTTTTGAT
+     230       240       250       260       270       280         
+
+      300       310       320       330       340       350        
+cox1_m GCCATTTTTGGTTGGAGGGGTAGGTAATTGGTTCTTACCCCTTTGATTAGGCTCTCCCGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d GCCATTTTTGGTTGGAGGGGTAGGTAATTGGTTCTTACCCCTTTGATTAGGCTCTCCCGA
+     290       300       310       320       330       340         
+
+      360       370       380       390       400       410        
+cox1_m TATGGCCTTCCCTCGATTGAATAATTTATCATTCTGATTATTAACTCCAGCAACAATGTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d TATGGCCTTCCCTCGATTGAATAATTTATCATTCTGATTATTAACTCCAGCAACAATGTT
+     350       360       370       380       390       400         
+
+      420       430       440       450       460       470        
+cox1_m CTTAGCCCTAGCAGTAGCTGGGTCTGTAGGGCCAGGGTGAACATTATATCCCCCTCTATC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d CTTAGCCCTAGCAGTAGCTGGGTCTGTAGGGCCAGGGTGAACATTATATCCCCCTCTATC
+     410       420       430       440       450       460         
+
+      480       490       500       510       520       530        
+cox1_m TTCTACTATTGGTTCACCAGGATCGTCTTTATAGAAAGAGCCATCTTCTTTTTGTCCACC
+       :::::::::::::::::::::::::::::  :::::::::::::::::  ::::::::::
+cox1_d TTCTACTATTGGTTCACCAGGATCGTCTT--TAGAAAGAGCCATCTTC--TTTGTCCACC
+     470       480       490         500       510         520     
+
+      540       550       560       570       580       590        
+cox1_m TAGCAGGATTATCTTCTATCTTTTTGGAGCTATCAATTTTTTCTAACAACTTTTTTTTTT
+       ::::::::::::::::::::  ::::::::::::::  ::::::::::::  ::::::::
+cox1_d TAGCAGGATTATCTTCTATC--TTTGGAGCTATCAA--TTTTCTAACAAC--TTTTTTTT
+         530       540         550         560       570           
+
+      600       610       620       630       640       650        
+cox1_m CTCTTACGTCATCAACCGCTTTTTGAACAGGACCATGCTTAGCAGCCCACTCTTTTTGTG
+       :::::::::::::::::::  :::::::::::::::::::::::::::::::  ::::::
+cox1_d CTCTTACGTCATCAACCGC--TTTGAACAGGACCATGCTTAGCAGCCCACTC--TTTGTG
+     580       590         600       610       620         630     
+
+      660       670       680       690       700       710        
+cox1_m ACTAACAACTTTTTTTTGCTTCTTCTAAGGCTGCCAGTTCTGGCCGGAGCTGTAACAATG
+       :::::::::  :::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d ACTAACAAC--TTTTTTGCTTCTTCTAAGGCTGCCAGTTCTGGCCGGAGCTGTAACAATG
+         640         650       660       670       680       690   
+
+      720       730       740       750       760       770        
+cox1_m CTTCTAGTAGATCGGACTGCTAGTGGTTCATTTTTTGATCCAGCGGGAGGGGGGGATCCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d CTTCTAGTAGATCGGACTGCTAGTGGTTCATTTTTTGATCCAGCGGGAGGGGGGGATCCA
+           700       710       720       730       740       750   
+
+      780       790       800       810       820       830        
+cox1_m CTTCTCTTTCAGCACCTTTTTTGGTTTTTTGGACATCCAGAAGTCTATGTTTTGATTCTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d CTTCTCTTTCAGCACCTTTTTTGGTTTTTTGGACATCCAGAAGTCTATGTTTTGATTCTT
+           760       770       780       790       800       810   
+
+      840       850       860       870       880       890        
+cox1_m CCAGCCTTTGGAATTATTTCTCAAATTACAGGAGCGGGACGAGGGGGAGTCTTTGCAAAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d CCAGCCTTTGGAATTATTTCTCAAATTACAGGAGCGGGACGAGGGGGAGTCTTTGCAAAA
+           820       830       840       850       860       870   
+
+      900       910       920       930       940       950        
+cox1_m TTAGGAATACTGCAATCAATGGTAGCTATCAGAAGGGTAGGGTTTCTAGTTTGAGGTCAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d TTAGGAATACTGCAATCAATGGTAGCTATCAGAAGGGTAGGGTTTCTAGTTTGAGGTCAT
+           880       890       900       910       920       930   
+
+      960       970       980       990      1000      1010        
+cox1_m CATATGTTCACAGTTGGAATAGACGTTGATGTTCGAGCCTACTTTACGGCTGTTACTCTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d CATATGTTCACAGTTGGAATAGACGTTGATGTTCGAGCCTACTTTACGGCTGTTACTCTA
+           940       950       960       970       980       990   
+
+     1020      1030      1040      1050      1060      1070        
+cox1_m GTAGTGGCAATCCCTACAGGGGTAAAAGTCTTCTCTTGAATGGCTACTTTATGAGGATCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d GTAGTGGCAATCCCTACAGGGGTAAAAGTCTTCTCTTGAATGGCTACTTTATGAGGATCT
+          1000      1010      1020      1030      1040      1050   
+
+     1080      1090      1100      1110      1120      1130        
+cox1_m GGTCTTCCCTTATCTCGGCCTGACCTTCTTTGAGCCTTTTTCTTTTTGATCTTATTTACT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d GGTCTTCCCTTATCTCGGCCTGACCTTCTTTGAGCCTTTTTCTTTTTGATCTTATTTACT
+          1060      1070      1080      1090      1100      1110   
+
+     1140      1150      1160      1170      1180      1190        
+cox1_m TTAGGGGGGTTAACAGGTTTAGTTCTAGCCAATGCAGGAGTAGATCTTGTTCTACATGAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d TTAGGGGGGTTAACAGGTTTAGTTCTAGCCAATGCAGGAGTAGATCTTGTTCTACATGAC
+          1120      1130      1140      1150      1160      1170   
+
+     1200      1210      1220      1230      1240      1250        
+cox1_m ACCTACTATGTAGTGGCCCACTTTCACTATGTTCTATCTTTAGGGGCAGTATTTAGAGTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d ACCTACTATGTAGTGGCCCACTTTCACTATGTTCTATCTTTAGGGGCAGTATTTAGAGTA
+          1180      1190      1200      1210      1220      1230   
+
+     1260      1270      1280      1290      1300      1310        
+cox1_m ATAGCAAGGGTAGCCTGAGGACACCAAGCTGTGCGCTGAAGCCCTTTTCCTTCTTCTATA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d ATAGCAAGGGTAGCCTGAGGACACCAAGCTGTGCGCTGAAGCCCTTTTCCTTCTTCTATA
+          1240      1250      1260      1270      1280      1290   
+
+     1320      1330      1340      1350      1360      1370        
+cox1_m GGGCGCCTCCAAGCTACACTTTTATTTTTGGGAGCCAACCTACTATTTTTTCCACTTCAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d GGGCGCCTCCAAGCTACACTTTTATTTTTGGGAGCCAACCTACTATTTTTTCCACTTCAT
+          1300      1310      1320      1330      1340      1350   
+
+     1380      1390      1400      1410      1420      1430        
+cox1_m AGGCTGGGGATGAGGGGAAGACCCCGACGAACATTTTCCTGCTGAGACTCCCTACAGCCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d AGGCTGGGGATGAGGGGAAGACCCCGACGAACATTTTCCTGCTGAGACTCCCTACAGCCT
+          1360      1370      1380      1390      1400      1410   
+
+     1440      1450      1460      1470      1480      1490        
+cox1_m GTAGTTCGAATCTCTAGCTTAGCTACATTTATGATCATTCTAACTATTACTATTACAGTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d GTAGTTCGAATCTCTAGCTTAGCTACATTTATGATCATTCTAACTATTACTATTACAGTA
+          1420      1430      1440      1450      1460      1470   
+
+     1500      1510      1520      1530      1540      1550        
+cox1_m AGTATTCTAGGGCGATCCCGAGGCCGTCGATTTATTTATTTTATTTATTTATTTATTATT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox1_d AGTATTCTAGGGCGATCCCGAGGCCGTCGATTTATTTATTTTATTTATTTATTTATTATT
+          1480      1490      1500      1510      1520      1530   
+
+     1560      1570      1580      1590      1600      1610        
+cox1_m TATTTATTTATTTTATTTTATTTTTTATTTTATTATTATTATTTTTTTTTCTTTTTTTTG
+       ::::::::::::::::::::::::::::                                
+cox1_d TATTTATTTATTTTATTTTATTTTTTAT                                
+          1540      1550      1560                                 
+
+>>cox1_dna                                                (1561 nt)
+rev-comp initn: 158 init1: 158 opt: 261  Z-score: 176.9  bits: 45.6 E(1): 4.8e-08
+banded Smith-Waterman score: 261; 70.8% identity (70.8% similar) in 120 nt overlap (1659-1541:3-121)
+
+            1660      1650      1640      1630      1620      1610 
+cox1_- TGTATGAAGAAAACCGACGTACAAAAAAAAAAACAAAAAGAAAAAAAAAACAAAAAAAAG
+                :::   :: : : ::::::::: : : ::::::: :::::  :::::::: 
+cox1_d        GAAAAGAAGAAGAAGAAAAAAAAAGA-AGAAAGAAAGAAAAAGAAAAAAAAAC
+                      10        20         30        40        50  
+
+            1600      1590      1580      1570      1560           
+cox1_- AAAAAAAAATAATAATAATAAAATAAAAAATAAAATAAAATAAATAAATA-AATAATAAA
+       :: :::::: :: :: ::  ::: :::::  : ::  :::: : ::: :: ::  :   :
+cox1_d AACAAAAAAAAAGAAAAAAGAAAAAAAAAGAAGAAGGAAATGAGTAAGTACAACCAACCA
+             60        70        80        90       100       110  
+
+   1550      1540      1530      1520      1510      1500          
+cox1_- TAAATAAATAAAATAAATAAATCGACGGCCTCGGGATCGCCCTAGAATACTTACTGTAAT
+       :::: ::::                                                   
+cox1_d TAAAGAAATTGGAGCTCTTTATATGATTTTTGGGGGGTTAGCAGGATCTGTTGGGGCTGC
+            120       130       140       150       160       170  
+
+
+
+1668 residues in 1 query   sequences
+1561 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:54 2024 done: Tue Sep 24 23:50:54 2024
+ Total Scan time:  0.160 Total Display time:  0.010
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta nad3_mrna.fasta nad3_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: nad3_mrna.fasta
+  1>>>nad3_mrna - 404 nt
+Library: nad3_dna.fasta
+      387 residues in     1 sequences
+
+Statistics: (shuffled [121]) MLE statistics: Lambda= 0.0910;  K=0.0007221
+ statistics sampled from 1 (1) to 121 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.050
+
+The best scores are:                                      opt bits E(1)
+nad3_dna                                       ( 387) [f] 1825 254.1 5.2e-72
+nad3_dna                                       ( 387) [r]   83 25.3  0.0038
+
+>>nad3_dna                                                (387 nt)
+ initn: 1825 init1: 1825 opt: 1825  Z-score: 1325.3  bits: 254.1 E(1): 5.2e-72
+banded Smith-Waterman score: 1825; 100.0% identity (100.0% similar) in 365 nt overlap (1-365:9-373)
+
+                       10        20        30        40        50  
+nad3_m         AAAAAAACAAAAAAGAAAAAAAAAAAAGAAAAAAAGAAAGAAAGAAAGAAAT
+               ::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad3_d AATAAAAAAAAAAAACAAAAAAGAAAAAAAAAAAAGAAAAAAAGAAAGAAAGAAAGAAAT
+               10        20        30        40        50        60
+
+             60        70        80        90       100       110  
+nad3_m GAAGGTATTAGTTACGTCAATCTTTTTTAGTCTATTGATCATAGCTTTTGGTTATAGGGT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad3_d GAAGGTATTAGTTACGTCAATCTTTTTTAGTCTATTGATCATAGCTTTTGGTTATAGGGT
+               70        80        90       100       110       120
+
+            120       130       140       150       160       170  
+nad3_m TTCGAGGACTCAGATAGGGTTAAAAAGTCGAACTGCCTATGAGTGTGGGTTCGATCCATT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad3_d TTCGAGGACTCAGATAGGGTTAAAAAGTCGAACTGCCTATGAGTGTGGGTTCGATCCATT
+              130       140       150       160       170       180
+
+            180       190       200       210       220       230  
+nad3_m ATCCGGTTGACGTAGACCTTTTTCGATTCACTTTTTATCTATTGCCTGTTTATTTTTGGT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad3_d ATCCGGTTGACGTAGACCTTTTTCGATTCACTTTTTATCTATTGCCTGTTTATTTTTGGT
+              190       200       210       220       230       240
+
+            240       250       260       270       280       290  
+nad3_m ATTTGATATAGAAGTTCTTATTCTAGCCCCATGGGTGTATTTGGAAGTCCCTATAACACT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad3_d ATTTGATATAGAAGTTCTTATTCTAGCCCCATGGGTGTATTTGGAAGTCCCTATAACACT
+              250       260       270       280       290       300
+
+            300       310       320       330       340       350  
+nad3_m TCTAGGATTATTTTTCATCTTGCTTAGATTAGCTGGAACTTGAGAATGGGCACGAGGGGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad3_d TCTAGGATTATTTTTCATCTTGCTTAGATTAGCTGGAACTTGAGAATGGGCACGAGGGGG
+              310       320       330       340       350       360
+
+            360       370       380       390       400    
+nad3_m GTTGGAATGGGACATTTCTTGGAGGGGTATGGCAAGGACACAAAGATCACCA
+       :::::::::::::                                       
+nad3_d GTTGGAATGGGACTAAAAAAAATTAAA                         
+              370       380                                
+
+>>nad3_dna                                                (387 nt)
+rev-comp initn:  80 init1:  50 opt:  83  Z-score: 89.0  bits: 25.3 E(1): 0.0038
+banded Smith-Waterman score: 92; 69.6% identity (69.6% similar) in 46 nt overlap (235-190:1-44)
+
+          260       250       240       230       220       210    
+nad3_- CATGGGGCTAGAATAAGAACTTCTATATCAAATACCAAAAATAAACAGGCAATAGATAAA
+                                     ::::  ::::: :::::   :: ::: :::
+nad3_d                               AATAAAAAAAAAAAACA--AAAAAGAAAAA
+                                             10          20        
+
+          200       190       180       170       160       150    
+nad3_- AAGTGAATCGAAAAAGGTCTACGTCAACCGGATAATGGATCGAACCCACACTCATAGGCA
+       ::   ::   ::::::                                            
+nad3_d AAAAAAAGAAAAAAAGAAAGAAAGAAAGAAATGAAGGTATTAGTTACGTCAATCTTTTTT
+       30        40        50        60        70        80        
+
+
+
+404 residues in 1 query   sequences
+387 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:54 2024 done: Tue Sep 24 23:50:54 2024
+ Total Scan time:  0.050 Total Display time:  0.000
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta nad1_mrna.fasta nad1_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: nad1_mrna.fasta
+  1>>>nad1_mrna - 1396 nt
+Library: nad1_dna.fasta
+     2122 residues in     1 sequences
+
+Statistics: (shuffled [71]) MLE statistics: Lambda= 0.0804;  K=7.43e-05
+ statistics sampled from 1 (1) to 71 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.210
+
+The best scores are:                                      opt bits E(1)
+nad1_dna                                       (2122) [f] 5565 663.8 4.5e-194
+nad1_dna                                       (2122) [r]  354 59.5 3.6e-12
+
+>>nad1_dna                                                (2122 nt)
+ initn: 5491 init1: 5491 opt: 5565  Z-score: 3516.7  bits: 663.8 E(1): 4.5e-194
+banded Smith-Waterman score: 5565; 98.2% identity (98.2% similar) in 1158 nt overlap (137-1292:967-2122)
+
+        110       120       130       140       150       160      
+nad1_m ANNNNNNNNNNCCCACACACCCACCCAAACACCACAAAAACCACACAAACAAAAAAATAA
+                                     :: : ::: :  : : ::  ::::::::::
+nad1_d TACTCTGTCATGTACTCTCCTGGGAAGAGTACAAAAAATAAAAAAAAATAAAAAAAATAA
+        940       950       960       970       980       990      
+
+        170         180       190       200       210       220    
+nad1_m AAAAAA--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA
+       ::::::  ::::::::: :: :: :: :: :: :::: ::::::::: ::::::::::::
+nad1_d AAAAAAAGAAAAAAAAAGAAGAAGAAGAAGAAGAAAAGAAAAAAAAAGAAAAAAAAACAA
+       1000      1010      1020      1030      1040      1050      
+
+          230       240       250       260       270       280    
+nad1_m AAACAAAAAAAAAAACAAACAAAAACAAAAACAAAAAAAAAAAGAAAAGTAGGGTTTTCC
+       :::: ::::::::::::::::::::::::::: :::::::::::::::::::::::::::
+nad1_d AAAC-AAAAAAAAAACAAACAAAAACAAAAAC-AAAAAAAAAAGAAAAGTAGGGTTTTCC
+       1060       1070      1080       1090      1100      1110    
+
+          290       300       310       320       330       340    
+nad1_m TTCTTTTAATACAGGGGGGAGGTTGTGTTACTATTCTTTTAAGGGTGGCCTTTTCAACTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d TTCTTTTAATACAGGGGGGAGGTTGTGTTACTATTCTTTTAAGGGTGGCCTTTTCAACTT
+         1120      1130      1140      1150      1160      1170    
+
+          350       360       370       380       390       400    
+nad1_m TGTGGGAGCGACGTAGATTAGCAACAGCCCAAAGGCGTTTGGGCCCTATTCGGGCAGGAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d TGTGGGAGCGACGTAGATTAGCAACAGCCCAAAGGCGTTTGGGCCCTATTCGGGCAGGAT
+         1180      1190      1200      1210      1220      1230    
+
+          410       420       430       440       450       460    
+nad1_m TTTTAGGCTGGTTTACACCTCTTTTAGATGGGGTTAAACTTTTGCTCCACGAAATCCCCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d TTTTAGGCTGGTTTACACCTCTTTTAGATGGGGTTAAACTTTTGCTCCACGAAATCCCCT
+         1240      1250      1260      1270      1280      1290    
+
+          470       480       490       500       510       520    
+nad1_m CCCTTAAGGGCTCCAACAGAGTTCTTTTAGCCTGACCTATAGTTGCTTTTTCTCTTGTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d CCCTTAAGGGCTCCAACAGAGTTCTTTTAGCCTGACCTATAGTTGCTTTTTCTCTTGTTT
+         1300      1310      1320      1330      1340      1350    
+
+          530       540       550       560       570       580    
+nad1_m TGTTAGGGAGTTGCTTATCTCCTGAGGTTCCATCTGGATATTCTTCCTGTATACTATTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d TGTTAGGGAGTTGCTTATCTCCTGAGGTTCCATCTGGATATTCTTCCTGTATACTATTTT
+         1360      1370      1380      1390      1400      1410    
+
+          590       600       610       620       630       640    
+nad1_m TCTTGGTCTTCTTAGTTTTAGGTAGTTTTCTAGCTTACATTGTGGTACTTGGAGCTCGAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d TCTTGGTCTTCTTAGTTTTAGGTAGTTTTCTAGCTTACATTGTGGTACTTGGAGCTCGAT
+         1420      1430      1440      1450      1460      1470    
+
+          650       660       670       680       690       700    
+nad1_m CGTCTGGATCAGGATATCCCCTTCTAAGGGCGGGTCGAAGAGTTGCCCAAGCCTTAGGAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d CGTCTGGATCAGGATATCCCCTTCTAAGGGCGGGTCGAAGAGTTGCCCAAGCCTTAGGAT
+         1480      1490      1500      1510      1520      1530    
+
+          710       720       730       740       750       760    
+nad1_m ACGAACTAGTGTGGTCAATAACATTTTTTCCCCCACTAATTTTTAGGGGATACCTTAGGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d ACGAACTAGTGTGGTCAATAACATTTTTTCCCCCACTAATTTTTAGGGGATACCTTAGGG
+         1540      1550      1560      1570      1580      1590    
+
+          770       780       790       800       810       820    
+nad1_m TACCCTATTCCTGGTCCTGGCCTATATATACTATCTGTCCCCTTTGGCTCAGAGCTGTAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d TACCCTATTCCTGGTCCTGGCCTATATATACTATCTGTCCCCTTTGGCTCAGAGCTGTAA
+         1600      1610      1620      1630      1640      1650    
+
+          830       840       850       860       870       880    
+nad1_m GATCTTTACTTGCAGAAACCCACCGGGCACCAAGGGATACTGTTGAGAGAGAAAGTGAAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d GATCTTTACTTGCAGAAACCCACCGGGCACCAAGGGATACTGTTGAGAGAGAAAGTGAAT
+         1660      1670      1680      1690      1700      1710    
+
+          890       900       910       920       930       940    
+nad1_m TAGTTTCAGGATATAACACTGAACTATCAGGCTGAATATTTACATCCTTCTTTTTAGCAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d TAGTTTCAGGATATAACACTGAACTATCAGGCTGAATATTTACATCCTTCTTTTTAGCAG
+         1720      1730      1740      1750      1760      1770    
+
+          950       960       970       980       990      1000    
+nad1_m AAATAGGGCACCTTTGGTTATCTGCTTTGTTCCTGACTTCTTTTTGAGGTGGATCCAATT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d AAATAGGGCACCTTTGGTTATCTGCTTTGTTCCTGACTTCTTTTTGAGGTGGATCCAATT
+         1780      1790      1800      1810      1820      1830    
+
+         1010      1020      1030      1040      1050      1060    
+nad1_m GGTATAGGATTCTTCTAATTATAGCAGCATTAATTCTTCGAGCAAGACTACCCCGCATTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d GGTATAGGATTCTTCTAATTATAGCAGCATTAATTCTTCGAGCAAGACTACCCCGCATTC
+         1840      1850      1860      1870      1880      1890    
+
+         1070      1080      1090      1100      1110      1120    
+nad1_m GTTATGATTATCTAATAGATTGCTGCTGAAAAGTAGGATTTCCTTTTAGCTTAAGGGCTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d GTTATGATTATCTAATAGATTGCTGCTGAAAAGTAGGATTTCCTTTTAGCTTAAGGGCTA
+         1900      1910      1920      1930      1940      1950    
+
+         1130      1140      1150      1160      1170      1180    
+nad1_m GGATGACCATGATAAGTATTCGCGGCTTTGGAGTAAACACTAATATTGTCTCTACTCTAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d GGATGACCATGATAAGTATTCGCGGCTTTGGAGTAAACACTAATATTGTCTCTACTCTAT
+         1960      1970      1980      1990      2000      2010    
+
+         1190      1200      1210      1220      1230      1240    
+nad1_m GAATTCCAACTGCATTATCAGTCTGATTTCTAATTTGCCTACAGTTAAAGAAGGAATAAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad1_d GAATTCCAACTGCATTATCAGTCTGATTTCTAATTTGCCTACAGTTAAAGAAGGAATAAT
+         2020      2030      2040      2050      2060      2070    
+
+         1250      1260      1270      1280      1290      1300    
+nad1_m ATTAGATACCTCTTTGAGCGGAAGTGAATCTGAATTATTTTTATTTTATTTATTTATTTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::            
+nad1_d ATTAGATACCTCTTTGAGCGGAAGTGAATCTGAATTATTTTTATTTTA            
+         2080      2090      2100      2110      2120              
+
+         1310      1320      1330      1340      1350      1360    
+nad1_m TTTATTTATTTTTTTTTTGTTTGTTTTTTTTTCTTTTTCTTTTTCTTTTGAATTTTTTTT
+
+>>nad1_dna                                                (2122 nt)
+rev-comp initn: 268 init1: 268 opt: 354  Z-score: 251.0  bits: 59.5 E(1): 3.6e-12
+banded Smith-Waterman score: 363; 79.2% identity (79.2% similar) in 120 nt overlap (1396-1279:973-1092)
+
+                                        1390      1380      1370   
+nad1_-                               AAAACAAAAAATAAAAAAAAATAAAAAAAA
+                                     :: : ::::::  :::::::::::::::::
+nad1_d GTCATGTACTCTCCTGGGAAGAGTACAAAAAATAAAAAAAAATAAAAAAAATAAAAAAAA
+            950       960       970       980       990      1000  
+
+          1360      1350        1340      1330      1320      1310 
+nad1_- AGAAAAAAAATTCAAAAGAAAAAGA--AAAAGAAAAAAAAACAAACAAAAAAAAAATAAA
+       ::::::::::   : ::::: ::::  :::::::::::::: ::: ::::: ::::  ::
+nad1_d AGAAAAAAAAAGAAGAAGAAGAAGAAGAAAAGAAAAAAAAAGAAAAAAAAACAAAAACAA
+           1010      1020      1030      1040      1050      1060  
+
+            1300      1290      1280      1270      1260      1250 
+nad1_- TAAATAAATAAATAAATAAAATAAAAATAATTCAGATTCACTTCCGCTCAAAGAGGTATC
+        ::: ::: ::: ::: : :: :: :: ::                              
+nad1_d AAAAAAAACAAACAAAAACAAAAACAAAAAAAAAAGAAAAGTAGGGTTTTCCTTCTTTTA
+           1070      1080      1090      1100      1110      1120  
+
+
+
+1396 residues in 1 query   sequences
+2122 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:54 2024 done: Tue Sep 24 23:50:54 2024
+ Total Scan time:  0.210 Total Display time:  0.000
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta cox3_mrna.fasta cox3_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: cox3_mrna.fasta
+  1>>>cox3_mrna - 885 nt
+Library: cox3_dna.fasta
+     1124 residues in     1 sequences
+
+Statistics: (shuffled [80]) MLE statistics: Lambda= 0.0822;  K=0.0001754
+ statistics sampled from 1 (1) to 80 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.110
+
+The best scores are:                                      opt bits E(1)
+cox3_dna                                       (1124) [f] 4084 501.3 1.3e-145
+cox3_dna                                       (1124) [r]  123 31.5 0.00033
+
+>>cox3_dna                                                (1124 nt)
+ initn: 3609 init1: 2774 opt: 4084  Z-score: 2646.9  bits: 501.3 E(1): 1.3e-145
+banded Smith-Waterman score: 4084; 98.8% identity (98.8% similar) in 842 nt overlap (34-870:1-842)
+
+            10        20        30        40        50        60   
+cox3_m AAATAAAAAAAAAAGAAAAGAAAAGAAAAGAAAAAAAGAAAGAAAGAAGAAGATTCGGGT
+                                     ::::::::::::::::::::::::::::::
+cox3_d                               AAAAAAAGAAAGAAAGAAGAAGATTCGGGT
+                                             10        20        30
+
+            70        80        90       100       110       120   
+cox3_m GGGGCTTTTTATCTTCCTGGTCCTTCTTTTCTACCCATTTTTGGGGCTTCCGCTATTTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d GGGGCTTTTTATCTTCCTGGTCCTTCTTTTCTACCCATTTTTGGGGCTTCCGCTATTTTT
+               40        50        60        70        80        90
+
+           130       140       150       160       170       180   
+cox3_m GTAACAGCTGGTAATGTATGAAGAAGTCTTCGGTGAGGAATCTCACTCTTCATAGGTTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d GTAACAGCTGGTAATGTATGAAGAAGTCTTCGGTGAGGAATCTCACTCTTCATAGGTTTT
+              100       110       120       130       140       150
+
+           190        200       210       220       230       240  
+cox3_m TCTACAATGGTTTCA-TTTTTTCTGAGATTATACTGATGGCGACTATTGTTAGTAGAAGG
+       ::::::::::::::: ::::::::::::::::::::::::::::::::::::::::::::
+cox3_d TCTACAATGGTTTCATTTTTTTCTGAGATTATACTGATGGCGACTATTGTTAGTAGAAGG
+              160       170       180       190       200       210
+
+            250       260       270       280       290         300
+cox3_m GTCGTTTTTGCATTTAGGCCGTAAAAATCGACGTAGATTAGCAACTGGATTCTTTC--TT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::  ::
+cox3_d GTCGTTTTTGCATTTAGGCCGTAAAAATCGACGTAGATTAGCAACTGGATTCTTTCTTTT
+              220       230       240       250       260       270
+
+              310       320       330       340       350       360
+cox3_m TTTTTAGTTAGGGAAAGTATGGTGTTTTTCTCTCTTTTTGTTAGCCTTTTTTATGCTGCC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d TTTTTAGTTAGGGAAAGTATGGTGTTTTTCTCTCTTTTTGTTAGCCTTTTTTATGCTGCC
+              280       290       300       310       320       330
+
+              370       380       390       400       410       420
+cox3_m ATTCAACCAGCACCTATTTTGGGGGCAGTGTGACCCCCTATTGGGTGCTCTCCTCTTAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d ATTCAACCAGCACCTATTTTGGGGGCAGTGTGACCCCCTATTGGGTGCTCTCCTCTTAAC
+              340       350       360       370       380       390
+
+              430       440       450       460       470       480
+cox3_m CCTTATGCCGTTCCATTGACGAATACTCTTATCTTATTAGCTAGTGGGGCTAGGGTAACT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d CCTTATGCCGTTCCATTGACGAATACTCTTATCTTATTAGCTAGTGGGGCTAGGGTAACT
+              400       410       420       430       440       450
+
+              490       500       510       520       530       540
+cox3_m TGGGGACACCATCGGTGAACGGCAGGTATGTACTCTATTATTCCCTTTTTTATTGCTGCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d TGGGGACACCATCGGTGAACGGCAGGTATGTACTCTATTATTCCCTTTTTTATTGCTGCA
+              460       470       480       490       500       510
+
+              550       560       570       580       590       600
+cox3_m TCTTTAGGTGGCGCTTTTTTGATGGGTCAAATGTGAGAATACTACTGGTCTTCTTTCTCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d TCTTTAGGTGGCGCTTTTTTGATGGGTCAAATGTGAGAATACTACTGGTCTTCTTTCTCT
+              520       530       540       550       560       570
+
+              610       620       630       640       650       660
+cox3_m TTCCGTCATGGTGCATACGGTTGTACCTTTTTCTTGGCCACAGGATGCCATGGGTGTCAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d TTCCGTCATGGTGCATACGGTTGTACCTTTTTCTTGGCCACAGGATGCCATGGGTGTCAT
+              580       590       600       610       620       630
+
+              670       680       690       700       710       720
+cox3_m GTATTAGCTGGTTCCGTGTTTTTGTTAATGGCTTCAAGGTGGCACAAAGAAAGAAATCTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d GTATTAGCTGGTTCCGTGTTTTTGTTAATGGCTTCAAGGTGGCACAAAGAAAGAAATCTT
+              640       650       660       670       680       690
+
+              730       740       750       760       770       780
+cox3_m GTTTGACCTCAACCAGTAGGGCGACCCCTTCGATTAGAGGCTTCTATCTGGTACTGACAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox3_d GTTTGACCTCAACCAGTAGGGCGACCCCTTCGATTAGAGGCTTCTATCTGGTACTGACAC
+              700       710       720       730       740       750
+
+              790       800       810       820       830       840
+cox3_m CTTGTAGATATCCTTTGGTTAGGACTCTGAGCCGTTTTTTACGTATGGGCTGATTTCCGA
+       :::::::::::::::::::::::: :::: ::::::::::::::::::::::::::::::
+cox3_d CTTGTAGATATCCTTTGGTTAGGAATCTGTGCCGTTTTTTACGTATGGGCTGATTTCCGA
+              760       770       780       790       800       810
+
+                850       860       870       880                  
+cox3_m TAAAAAAAA--AAAAAAAAAAAAATAAAAAAATTTAGTCGAGAGAAA             
+       :::::::::  ::::::::: ::: ::: :::                            
+cox3_d TAAAAAAAATTAAAAAAAAAGAAAGAAAGAAAAAAAAAGAAAAAGAAAAAAGAAAAAAAC
+              820       830       840       850       860       870
+
+cox3_d AATAATAATAAAATAAATAAAAAAAATAAAATAAAATAAATAAATAAATAAATAAAATAA
+              880       890       900       910       920       930
+
+>>cox3_dna                                                (1124 nt)
+rev-comp initn: 120 init1: 108 opt: 123  Z-score: 108.1  bits: 31.5 E(1): 0.00033
+banded Smith-Waterman score: 123; 65.3% identity (65.3% similar) in 72 nt overlap (364-293:831-901)
+
+         390       380       370       360       350       340     
+cox3_- GTCACACTGCCCCCAAAATAGGTGCTGGTTGAATGGCAGCATAAAAAAGGCTAACAAAAA
+                                     ::: :  :: : :::::::   :: :::::
+cox3_d TGATTTCCGATAAAAAAAATTAAAAAAAAAGAAAGAAAGAAAAAAAAAGAAAAAGAAAAA
+              810       820       830       840       850       860
+
+         330       320       310       300       290       280     
+cox3_- GAGAGAAAAACACCATACTTTCCCTAACTAAAAAAAGAAAGAATCCAGTTGCTAATCTAC
+        ::: :::::::  :    :    ::: ::::::::  :: :                  
+cox3_d -AGAAAAAAACAATAATAATAAAATAAATAAAAAAAATAAAATAAAATAAATAAATAAAT
+               870       880       890       900       910         
+
+         270       260       250       240       230       220     
+cox3_- GTCGATTTTTACGGCCTAAATGCAAAAACGACCCTTCTACTAACAATAGTCGCCATCAGT
+                                                                   
+cox3_d AAATAAAATAAAATAAAAAAATAAAAAAAAAAGAAATAAATAAAAAGAAGAAGACTTTTC
+     920       930       940       950       960       970         
+
+
+
+885 residues in 1 query   sequences
+1124 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:54 2024 done: Tue Sep 24 23:50:55 2024
+ Total Scan time:  0.110 Total Display time:  0.010
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta cox2_mrna.fasta cox2_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: cox2_mrna.fasta
+  1>>>cox2_mrna - 2414 nt
+Library: cox2_dna.fasta
+     1395 residues in     1 sequences
+
+Statistics: (shuffled [70]) MLE statistics: Lambda= 0.0868;  K=9.397e-05
+ statistics sampled from 1 (1) to 70 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.130
+
+The best scores are:                                      opt bits E(1)
+cox2_dna                                       (1395) [f] 4135 536.1 1.4e-155
+cox2_dna                                       (1395) [r]  104 31.4  0.0012
+
+>>cox2_dna                                                (1395 nt)
+ initn: 3756 init1: 3756 opt: 4135  Z-score: 2825.8  bits: 536.1 E(1): 1.4e-155
+banded Smith-Waterman score: 4135; 98.8% identity (98.8% similar) in 857 nt overlap (1393-2246:1-854)
+
+           1370      1380      1390      1400      1410      1420  
+cox2_m TAATAAAAAGAAAAGAAAAGAAAAGAAAGAAAAAAAAAGAAAAAGAAAAGAAAAGAAAAG
+                                     ::::::::::::::::::::::::::::::
+cox2_d                               AAAAAAAAGAAAAAGAAAAGAAAAGAAAAG
+                                             10        20        30
+
+           1430       1440      1450      1460      1470      1480 
+cox2_m AAAAGAAAGAAAAAAAG-AAAAAAAAAGAAAGAAAAGAAAAGAAAAGAATCCAGAATGGT
+       ::::::::::::::::: ::::::::::::::::::::::::::::::::::::::::::
+cox2_d AAAAGAAAGAAAAAAAGAAAAAAAAAAGAAAGAAAAGAAAAGAAAAGAATCCAGAATGGT
+               40        50        60        70        80        90
+
+            1490      1500      1510      1520      1530      1540 
+cox2_m CCATTAGGGTGACCATCTCCTGCAGGTGGGGTGGCTGAATCAATCTTTCTGATATATGAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d CCATTAGGGTGACCATCTCCTGCAGGTGGGGTGGCTGAATCAATCTTTCTGATATATGAT
+              100       110       120       130       140       150
+
+            1550      1560      1570      1580      1590      1600 
+cox2_m CGGGTTTTCTGTCTATTATTAGCAGTAAGTTGAATTCTATTTATTACTATTGTTGTTTAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d CGGGTTTTCTGTCTATTATTAGCAGTAAGTTGAATTCTATTTATTACTATTGTTGTTTAT
+              160       170       180       190       200       210
+
+            1610      1620      1630      1640      1650      1660 
+cox2_m GTAGCTAAGTGAAGGTCAGTAGGAAACCGTAATTTGCGAGAGGATTGGAAGGTAGAAGCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d GTAGCTAAGTGAAGGTCAGTAGGAAACCGTAATTTGCGAGAGGATTGGAAGGTAGAAGCA
+              220       230       240       250       260       270
+
+            1670      1680      1690      1700      1710      1720 
+cox2_m TCATGAACAGTCTTTCCGATTGCAGCTTTGATTCGGCTAGGGTTTCCATCTATCCGTCTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d TCATGAACAGTCTTTCCGATTGCAGCTTTGATTCGGCTAGGGTTTCCATCTATCCGTCTC
+              280       290       300       310       320       330
+
+            1730      1740      1750      1760      1770      1780 
+cox2_m CTCTATATTCAAGAAGAACGGTTTTCCTGTGCATATGGGGTCCGTATTGTTGGCCACCAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d CTCTATATTCAAGAAGAACGGTTTTCCTGTGCATATGGGGTCCGTATTGTTGGCCACCAA
+              340       350       360       370       380       390
+
+            1790      1800      1810      1820      1830      1840 
+cox2_m TGATACTGAGAATATGATTATTCTAATGGGTTTTGTGAAGTATCCCATGATTCCTCCCCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d TGATACTGAGAATATGATTATTCTAATGGGTTTTGTGAAGTATCCCATGATTCCTCCCCA
+              400       410       420       430       440       450
+
+            1850      1860      1870      1880      1890      1900 
+cox2_m GATGAAGTAGACCCAGAGGGTCTCCGCCGTCTTTCTATAACAAATGAATTTTTACTACTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d GATGAAGTAGACCCAGAGGGTCTCCGCCGTCTTTCTATAACAAATGAATTTTTACTACTG
+              460       470       480       490       500       510
+
+            1910      1920      1930      1940      1950      1960 
+cox2_m CCTGTGGGAGTTCGTTGTCGAAGGTTGGTAACCAGCGCTGACGTTCTTCACTCCTTTTCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d CCTGTGGGAGTTCGTTGTCGAAGGTTGGTAACCAGCGCTGACGTTCTTCACTCCTTTTCT
+              520       530       540       550       560       570
+
+            1970      1980      1990      2000      2010      2020 
+cox2_m TTGCCCGCGTGTGGTGTTAAAGTGGATGCTGTACCAGGACGTTTGAATTCTTTATCATTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d TTGCCCGCGTGTGGTGTTAAAGTGGATGCTGTACCAGGACGTTTGAATTCTTTATCATTC
+              580       590       600       610       620       630
+
+            2030      2040      2050      2060      2070      2080 
+cox2_m TTTGTGCATCGAAGGGGGGTTTTTTATGGTCAATGTAGTGAACTCTGTGGAGCAAATCAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+cox2_d TTTGTGCATCGAAGGGGGGTTTTTTATGGTCAATGTAGTGAACTCTGTGGAGCAAATCAT
+              640       650       660       670       680       690
+
+            2090      2100      2110      2120      2130      2140 
+cox2_m ACATTTATGCCAATTGTTAGGTGAGTTATGCCTATTGAACTTCTAATGATTTATTAAAGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+cox2_d ACATTTATGCCAATTGTTAGGTGAGTTATGCCTATTGAACTTCTAATGATTTATTAAAG-
+              700       710       720       730       740          
+
+            2150      2160      2170      2180      2190           
+cox2_m AAAAAAAAAGAAGAAGAAAATAAAAGAAGAAGAAAGAAAGAAAAAGAAAAAAA--AACAA
+       :::::::::::::::::::::::::::::::::::::::::::::::::::::  :::::
+cox2_d AAAAAAAAAGAAGAAGAAAATAAAAGAAGAAGAAAGAAAGAAAAAGAAAAAAAACAACAA
+     750       760       770       780       790       800         
+
+    2200      2210      2220      2230      2240      2250         
+cox2_m CAAAAAAAAGAAGAAGAAGAAAAAAGAAAAAAGAAAGAAGAAGAAGAAGAAAAAAAAAGA
+       :::::::::::: :::::::: ::: : ::::: :::::::: ::::             
+cox2_d CAAAAAAAAGAAAAAGAAGAAGAAA-ATAAAAG-AAGAAGAAAAAGATCCCCCACCACTA
+     810       820       830        840        850       860       
+
+    2260      2270      2280      2290      2300      2310         
+cox2_m AGAAGAAAGAAAGAAAGAAAAGAAAACAAAACAAAAACAAAAAAAAAAAGAAAGAAAGAA
+                                                                   
+cox2_d AGAGTATATGACCCAGAGTGTGCAAGCAGCCTTTAGGCTCTGTAATAAAAAATCCAAACA
+       870       880       890       900       910       920       
+
+>>cox2_dna                                                (1395 nt)
+rev-comp initn: 139 init1:  91 opt: 104  Z-score: 97.8  bits: 31.4 E(1): 0.0012
+banded Smith-Waterman score: 104; 69.6% identity (69.6% similar) in 46 nt overlap (1014-969:27-72)
+
+        1040      1030      1020      1010      1000       990     
+cox2_- ACTCCCCCGCCAGTGTTCACGTGGATTGAGAAAGATTTGAAAGACACAAAGAACACGAAA
+                                     :::::   :::::: : :::::: :  :::
+cox2_d     AAAAAAAAGAAAAAGAAAAGAAAAGAAAAGAAAAGAAAGAAAAAAAGAAAAAAAAA
+                   10        20        30        40        50      
+
+         980       970       960       950       940       930     
+cox2_- CAAGGTGAAAGAAAAGTGGCGGAGCAATCAGCGGAAAAAGAAAAGAGAAAGAAAGCTATG
+         :    :::::::::                                            
+cox2_d AGAAAGAAAAGAAAAGAAAAGAATCCAGAATGGTCCATTAGGGTGACCATCTCCTGCAGG
+         60        70        80        90       100       110      
+
+
+
+2414 residues in 1 query   sequences
+1395 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:55 2024 done: Tue Sep 24 23:50:55 2024
+ Total Scan time:  0.130 Total Display time:  0.010
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta nad5_mrna.fasta nad5_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: nad5_mrna.fasta
+  1>>>nad5_mrna - 1346 nt
+Library: nad5_dna.fasta
+     1261 residues in     1 sequences
+
+Statistics: (shuffled [142]) MLE statistics: Lambda= 0.0864;  K=0.0001964
+ statistics sampled from 1 (1) to 142 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.5), E-opt: 0.05 (0.5), width:  16
+ Scan time:  0.140
+
+The best scores are:                                      opt bits E(1)
+nad5_dna                                       (1261) [f] 6241 793.4       0
+nad5_dna                                       (1261) [r]   60 23.4    0.14
+
+>>nad5_dna                                                (1261 nt)
+ initn: 5681 init1: 5681 opt: 6241  Z-score: 4221.5  bits: 793.4 E(1):    0
+banded Smith-Waterman score: 6241; 99.6% identity (99.6% similar) in 1262 nt overlap (31-1291:1-1261)
+
+               10        20        30        40        50        60
+nad5_m AAATAATAATAATAAAAAAAAAAAATAATAATAATAAAAAGAAAAGAAAAGAAAAGAAAG
+                                     : ::  ::::::::::::::::::::::::
+nad5_d                               AAAAAGAAAAGAAAAGAAAAGAAAAGAAAG
+                                             10        20        30
+
+               70        80        90       100       110       120
+nad5_m AAAGAAAAAAAAATAATAATAATAAAAAAGAATTTTTGAATTCTATTTTACCTCTTTTTA
+       :::: :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d AAAG-AAAAAAAATAATAATAATAAAAAAGAATTTTTGAATTCTATTTTACCTCTTTTTA
+                40        50        60        70        80         
+
+              130       140       150       160       170       180
+nad5_m TGGTCTTAATAGTTTGGCCGATAAGAATTAATAGAGGCTTTCGAAAATGGGCTTTCTTAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d TGGTCTTAATAGTTTGGCCGATAAGAATTAATAGAGGCTTTCGAAAATGGGCTTTCTTAT
+      90       100       110       120       130       140         
+
+               190       200       210       220       230         
+nad5_m CCTCC-TTTTTTATCATAGGGGTTCCAATTTTGTCAGAAAGAGGAATCGTTAGTTCTATA
+       ::::: ::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d CCTCCTTTTTTTATCATAGGGGTTCCAATTTTGTCAGAAAGAGGAATCGTTAGTTCTATA
+     150       160       170       180       190       200         
+
+     240       250       260       270       280       290         
+nad5_m GGGGGATGGGTTTATGGGTTAGACAGTGGTCGATTTTTGTACCTTAATTCCTTATCAATT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d GGGGGATGGGTTTATGGGTTAGACAGTGGTCGATTTTTGTACCTTAATTCCTTATCAATT
+     210       220       230       240       250       260         
+
+     300       310       320       330       340       350         
+nad5_m AATATATTATGAACCCTTTGCTGAACAGCGGGCCCAGTACTTATTTTTGGATCTAGGTAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d AATATATTATGAACCCTTTGCTGAACAGCGGGCCCAGTACTTATTTTTGGATCTAGGTAT
+     270       280       290       300       310       320         
+
+     360       370       380       390       400       410         
+nad5_m ATGATAAGGGATCCATATGGTCGTCGATTTCTATATTCTATGGAATTCTTCTTCTTATCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d ATGATAAGGGATCCATATGGTCGTCGATTTCTATATTCTATGGAATTCTTCTTCTTATCA
+     330       340       350       360       370       380         
+
+     420       430       440       450       460       470         
+nad5_m ATAGCTTTAAGTGTTATAAGGGGGGATGGGTTAACATTTTTGGTAGGGTGGGAAGGAATA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d ATAGCTTTAAGTGTTATAAGGGGGGATGGGTTAACATTTTTGGTAGGGTGGGAAGGAATA
+     390       400       410       420       430       440         
+
+     480       490       500       510       520       530         
+nad5_m GGATTAGCTTCTTATTTATTAATCGCTTTTTGGTCAACTCGTCGACGGGCTATTGTTGCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d GGATTAGCTTCTTATTTATTAATCGCTTTTTGGTCAACTCGTCGACGGGCTATTGTTGCA
+     450       460       470       480       490       500         
+
+     540       550       560       570       580       590         
+nad5_m GGCTTTCAAGCAGTAGTTTTTAATTTACCGGGGGATACTTTTCTTCTCAGTAGATGACTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d GGCTTTCAAGCAGTAGTTTTTAATTTACCGGGGGATACTTTTCTTCTCAGTAGATGACTA
+     510       520       530       540       550       560         
+
+     600       610       620       630       640       650         
+nad5_m TTAACTATAAATACAATAGGCATAGATCCTTTTTTTTGAAGGTTGTCCCTCAGATTCATC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d TTAACTATAAATACAATAGGCATAGATCCTTTTTTTTGAAGGTTGTCCCTCAGATTCATC
+     570       580       590       600       610       620         
+
+     660       670       680       690       700       710         
+nad5_m CTACATTATGATATTTTACATCGCAGCAGCAGCAAAATCTGCCCAATTAGGATTTCATCC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d CTACATTATGATATTTTACATCGCAGCAGCAGCAAAATCTGCCCAATTAGGATTTCATCC
+     630       640       650       660       670       680         
+
+     720       730       740       750       760       770         
+nad5_m TTGACTTCCTTCGGCTATAGAAGGACCTACTCCTGTGTCAAGGCTTCTGCATGCCTCAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d TTGACTTCCTTCGGCTATAGAAGGACCTACTCCTGTGTCAAGGCTTCTGCATGCCTCAAC
+     690       700       710       720       730       740         
+
+     780       790       800       810       820       830         
+nad5_m CCTGGTAGCAGCTGGAGCATTATTATTATTACGTATTGGGGCTCCTGGAGGAAGGCCTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d CCTGGTAGCAGCTGGAGCATTATTATTATTACGTATTGGGGCTCCTGGAGGAAGGCCTTT
+     750       760       770       780       790       800         
+
+     840       850       860       870       880       890         
+nad5_m CCTTCTTTTTTCTGCCACTACATCTTTCTTAGCTGGACGATCTAGTATAGAAGCAATGGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d CCTTCTTTTTTCTGCCACTACATCTTTCTTAGCTGGACGATCTAGTATAGAAGCAATGGA
+     810       820       830       840       850       860         
+
+     900       910       920       930       940       950         
+nad5_m TAGAAAGCGGTTGGTTGCTTTTTCTACTTGTAGTCAACTGGCTTTGGTAATAATCAGGTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d TAGAAAGCGGTTGGTTGCTTTTTCTACTTGTAGTCAACTGGCTTTGGTAATAATCAGGTC
+     870       880       890       900       910       920         
+
+     960       970       980       990      1000      1010         
+nad5_m CTCTAGGTTGCAATCCTGACCCAGCCTCTTCCACTTATCTTCCCATGCTTTTTTTAAGTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d CTCTAGGTTGCAATCCTGACCCAGCCTCTTCCACTTATCTTCCCATGCTTTTTTTAAGTC
+     930       940       950       960       970       980         
+
+    1020      1030      1040      1050      1060      1070         
+nad5_m CCTTTTATTTATAGCTTGTGGGGGCTTTATCCATAGGAGGGGTGATTGTCAAGAGACAAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d CCTTTTATTTATAGCTTGTGGGGGCTTTATCCATAGGAGGGGTGATTGTCAAGAGACAAA
+     990      1000      1010      1020      1030      1040         
+
+    1080      1090      1100      1110      1120      1130         
+nad5_m GACTTTAAGGGGTTTTTATCCTTTAAGAGGGACTTTAGTTGGAATCCCAGCTTCTATGTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d GACTTTAAGGGGTTTTTATCCTTTAAGAGGGACTTTAGTTGGAATCCCAGCTTCTATGTC
+    1050      1060      1070      1080      1090      1100         
+
+    1140      1150      1160      1170      1180      1190         
+nad5_m TGCCCTGTCTCTCATAGGCTTTCCCAGGTTATCAGGTGGAGTAAGTAAAGAATATCTGAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d TGCCCTGTCTCTCATAGGCTTTCCCAGGTTATCAGGTGGAGTAAGTAAAGAATATCTGAT
+    1110      1120      1130      1140      1150      1160         
+
+    1200      1210      1220      1230      1240      1250         
+nad5_m GGTTGTGATCAGAAATAGAGACTTCTGGTCCATACTGACTGCTTGATCTTTAATAGTAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad5_d GGTTGTGATCAGAAATAGAGACTTCTGGTCCATACTGACTGCTTGATCTTTAATAGTAAC
+    1170      1180      1190      1200      1210      1220         
+
+    1260      1270      1280      1290      1300      1310         
+nad5_m GGCTTTTTATACTGCAATGTACTCGTCCAAACTTATTTTCCAGGCTAGATCTGAATACCC
+       ::::::::::::::::::::::::::::::::                            
+nad5_d GGCTTTTTATACTGCAATGTACTCGTCCAAAC                            
+    1230      1240      1250      1260                             
+
+    1320      1330      1340      
+nad5_m AGATCGGAAGAGCACACGTCTGAACTC
+
+>>nad5_dna                                                (1261 nt)
+rev-comp initn:  60 init1:  60 opt:  60  Z-score: 60.0  bits: 23.4 E(1): 0.14
+banded Smith-Waterman score: 63; 83.3% identity (83.3% similar) in 18 nt overlap (816-799:37-54)
+
+           840       830       820       810       800       790   
+nad5_- AAGAAGGAAAGGCCTTCCTCCAGGAGCCCCAATACGTAATAATAATAATGCTCCAGCTGC
+                                     :: :  ::::::::::::            
+nad5_d AAAAGAAAAGAAAAGAAAAGAAAGAAAGAAAAAAAATAATAATAATAAAAAAGAATTTTT
+         10        20        30        40        50        60      
+
+           780       770       760       750       740       730   
+nad5_- TACCAGGGTTGAGGCATGCAGAAGCCTTGACACAGGAGTAGGTCCTTCTATAGCCGAAGG
+                                                                   
+nad5_d GAATTCTATTTTACCTCTTTTTATGGTCTTAATAGTTTGGCCGATAAGAATTAATAGAGG
+         70        80        90       100       110       120      
+
+
+
+1346 residues in 1 query   sequences
+1261 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:55 2024 done: Tue Sep 24 23:50:55 2024
+ Total Scan time:  0.140 Total Display time:  0.010
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta nad4_mrna.fasta nad4_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: nad4_mrna.fasta
+  1>>>nad4_mrna - 1384 nt
+Library: nad4_dna.fasta
+     1693 residues in     1 sequences
+
+Statistics: (shuffled [108]) MLE statistics: Lambda= 0.0833;  K=0.0001078
+ statistics sampled from 1 (1) to 108 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.150
+
+The best scores are:                                      opt bits E(1)
+nad4_dna                                       (1693) [f] 2040 262.3 2.6e-73
+nad4_dna                                       (1693) [r]  350 59.3 3.3e-12
+
+>>nad4_dna                                                (1693 nt)
+ initn: 3841 init1: 1450 opt: 2040  Z-score: 1348.7  bits: 262.3 E(1): 2.6e-73
+banded Smith-Waterman score: 2802; 96.3% identity (96.3% similar) in 621 nt overlap (680-1300:1088-1693)
+
+     650       660       670       680       690       700         
+nad4_m ACTCCCTTACCTAGCTTTTTATTAAGATTATCTTTTTTGGGTCTAATTATAGGGCCCTTT
+                                     : : :::::::::::::::::::::::  :
+nad4_d AGGTACTCCCTTACCTAGCTTTATTAAGATTATCTTTTGGGTCTAATTATAGGGCCC--T
+      1060      1070      1080      1090      1100      1110       
+
+     710       720       730       740       750       760         
+nad4_m TTAACTCTTCGCCAAGTCCATTCTAAACGCCTAGTTGCAGCATCTTCATTGGGCCATATA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad4_d TTAACTCTTCGCCAAGTCCATTCTAAACGCCTAGTTGCAGCATCTTCATTGGGCCATATA
+        1120      1130      1140      1150      1160      1170     
+
+     770       780       790       800       810       820         
+nad4_m GCTAGAGTTGGGGCAGTTTTGTCATGTGGATCTTCAAAAATTAGGGTTCTAGTTATAGTT
+       :::::::::::::::: :::::::::::::::::::::::::::::::::::::::::::
+nad4_d GCTAGAGTTGGGGCAG-TTTGTCATGTGGATCTTCAAAAATTAGGGTTCTAGTTATAGTT
+        1180      1190       1200      1210      1220      1230    
+
+     830       840       850       860       870       880         
+nad4_m ACTCATGGGTTATCCTCGCCTTTTTGTTTTTTTGCCGTAGTCTCTAAGTATCAGCGACTA
+       ::::::::::::::::::::::    : ::::::::::::::::::::::::::::::::
+nad4_d ACTCATGGGTTATCCTCGCCTT----TGTTTTTGCCGTAGTCTCTAAGTATCAGCGACTA
+         1240      1250          1260      1270      1280      1290
+
+     890       900       910       920       930       940         
+nad4_m TCTTCTTACTCTCTTCCCCTTTGACGAGGGTGGCTATCTGTTGGTCCCCTTTTTAGATTT
+       ::::::::::::::::::: :::::::::::::::::::::::::::::  ::::::  :
+nad4_d TCTTCTTACTCTCTTCCCC-TTGACGAGGGTGGCTATCTGTTGGTCCCC--TTTAGA--T
+             1300       1310      1320      1330        1340       
+
+     950       960       970       980       990      1000         
+nad4_m TTTTTATTGATGTCATTGACTTCTGGCTGAGGTTTTCCACTCCATGCTTCTTTTTTTAGA
+       :::::::::::::::::::::::::::::::: :::::::::::::::::  ::::::::
+nad4_d TTTTTATTGATGTCATTGACTTCTGGCTGAGG-TTTCCACTCCATGCTTC--TTTTTAGA
+        1350      1360      1370       1380      1390        1400  
+
+    1010      1020      1030      1040      1050      1060         
+nad4_m GAAGTAAGGTGCGCAAGGGTGTGGATAAGTCAGGGATTAGCTGTTCTACTTATCAGGTTA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad4_d GAAGTAAGGTGCGCAAGGGTGTGGATAAGTCAGGGATTAGCTGTTCTACTTATCAGGTTA
+           1410      1420      1430      1440      1450      1460  
+
+    1070      1080      1090      1100      1110      1120         
+nad4_m GGAGCTTGTGGTGTAGGGCGTCTATATTCTCTTTCTGTTGGGACGAAGATTAGGGGGCAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad4_d GGAGCTTGTGGTGTAGGGCGTCTATATTCTCTTTCTGTTGGGACGAAGATTAGGGGGCAC
+           1470      1480      1490      1500      1510      1520  
+
+    1130      1140      1150      1160      1170      1180         
+nad4_m CCCACACCCAACCTACTCTTACGTCCGAGATTGAAATCAAAGCGAAGCGATTTGGAACTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad4_d CCCACACCCAACCTACTCTTACGTCCGAGATTGAAATCAAAGCGAAGCGATTTGGAACTT
+           1530      1540      1550      1560      1570      1580  
+
+    1190      1200      1210      1220      1230      1240         
+nad4_m TGGACTACGTGGTCAAGTGTTTGGGCCTTTTATTTTTTTCTTTTTGTTTTCTTTTTTCTT
+       ::::::::::::::::: ::::::::::::::::::::::::::: ::::::::::::::
+nad4_d TGGACTACGTGGTCAAGAGTTTGGGCCTTTTATTTTTTTCTTTTTCTTTTCTTTTTTCTT
+           1590      1600      1610      1620      1630      1640  
+
+    1250      1260      1270      1280      1290      1300         
+nad4_m CTTCTTTTTTTTATTTTTTTTTTTTTGTTTTGTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+       :::::::::::: : :::::::::::::::::::::::::::: :::::::         
+nad4_d CTTCTTTTTTTTTTATTTTTTTTTTTGTTTTGTTTTTTTTTTTCTTTTTTT         
+           1650      1660      1670      1680      1690            
+
+    1310      1320      1330      1340      1350      1360         
+nad4_m TTCTTTGGATTACCAGTTGTAAATGGTTTAGCCTGTCAAGTCTTCATACCAGCACGAACT
+
+>--
+ initn: 1936 init1: 535 opt: 2625  Z-score: 1728.5  bits: 332.6 E(1): 1.8e-94
+banded Smith-Waterman score: 2625; 90.4% identity (90.4% similar) in 687 nt overlap (1-677:426-1087)
+
+                                              10        20         
+nad4_m                               AAAGAAA-AAAAAAGAAAAAAAAAAAGAAA
+                                     ::::::: ::: :: : :::::::::::::
+nad4_d CGTTCCAAAAAAGAAAAAAGAAAAAGAAAAAAAGAAAGAAAGAAAAGAAAAAAAAAGAAA
+         400       410       420       430       440       450     
+
+      30          40        50         60        70        80      
+nad4_m GAAAGAA--AAAGAAAAGAAAAGAAAAGAAAA-AAAAGATAAAAACTAGGTCAAGTATTT
+        ::::::  :::::::  :::::::::::::: :::::: :::::  :    :: ::  :
+nad4_d AAAAGAAAGAAAGAAAGAAAAAGAAAAGAAAAGAAAAGAAAAAAAAGATAAAAACTAGGT
+         460       470       480       490       500       510     
+
+         90       100       110         120           130       140
+nad4_m TTCCTAATTTTTTCTTATTAACTTCT--AGGAATAG----ATCTTTTTGTTCCTTGTTAA
+          : : : ::: :: :::  ::: :  :    :::    :  : :::::::::::::::
+nad4_d ---CAAGTATTTCCTAATTTTCTTATTAACTTCTAGGAATAGATCTTTGTTCCTTGTTAA
+            520       530       540       550       560       570  
+
+              150       160       170       180       190       200
+nad4_m CTCCCCTCTTTTTGTTATTACCTCTGTCTGTCCCAATCTGTTACTGGGCAGGGCCAGCTC
+       ::::::::  ::::::::::::::::::::::::::::::::::::::::::::::::::
+nad4_d CTCCCCTC--TTTGTTATTACCTCTGTCTGTCCCAATCTGTTACTGGGCAGGGCCAGCTC
+            580         590       600       610       620       630
+
+              210       220       230       240       250       260
+nad4_m CAATAAAGCTTTTTCATAATGCATTAGTTATACTAATCTGCTTTTTAAGGGGAAGATTTT
+       :::::::::  ::::::::::::::::::::::::::::::  :::::::::::::  ::
+nad4_d CAATAAAGC--TTTCATAATGCATTAGTTATACTAATCTGC--TTTAAGGGGAAGA--TT
+                640       650       660         670       680      
+
+              270       280       290       300       310       320
+nad4_m TTTTGAGCAGAGGTTGGATTCAGTTGTTCTTTTTTTTTGAAGCAGTAGGCGCTTGTATGT
+       :::::::::::::::::::::::::::::  :::::::::::::::::::::::::::::
+nad4_d TTTTGAGCAGAGGTTGGATTCAGTTGTTC--TTTTTTTGAAGCAGTAGGCGCTTGTATGT
+          690       700       710         720       730       740  
+
+              330       340       350       360       370       380
+nad4_m TCCTAATGGTTGGAATTTTTGGCTCTCTCACTAGACGATATTCAGCAGGATTACACTTTT
+       :::::::::::::::  :::::::::::::::::::::::::::::::::::::::  ::
+nad4_d TCCTAATGGTTGGAA--TTTGGCTCTCTCACTAGACGATATTCAGCAGGATTACAC--TT
+            750         760       770       780       790          
+
+              390       400       410       420       430       440
+nad4_m TTAGATATAGCTTAGTAAGAGCTACGGCTTTTTGGCTATCCTGAGTCTGATCTTCCTTGA
+       ::::::::::::::::::::::::::::  ::::::::::::::::::::::::::::::
+nad4_d TTAGATATAGCTTAGTAAGAGCTACGGC--TTTGGCTATCCTGAGTCTGATCTTCCTTGA
+      800       810       820         830       840       850      
+
+              450       460       470       480       490       500
+nad4_m GTATAGATGTTAGTGTAGTAGGAACAGACCTCAACTCCAAAAGCAGCTTACTATGACTAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+nad4_d GTATAGATGTTAGTGTAGTAGGAACAGACCTCAACTCCAAAAGCAGCTTACTATGACTAA
+        860       870       880       890       900       910      
+
+              510       520       530       540       550       560
+nad4_m TGTACTCTAGACCATTTTTATTCAAACTTCCCCTTTATCCCTTCCATGATTGGTTGCTTC
+       ::::::::::::::  ::::::::::::::::: ::::::::::::::::::::::::::
+nad4_d TGTACTCTAGACCA--TTTATTCAAACTTCCCC-TTATCCCTTCCATGATTGGTTGCTTC
+        920       930         940        950       960       970   
+
+              570       580       590       600       610       620
+nad4_m GTGCACATTCCGAAGCATCATTAGTTGGATCTGTTTTACTTGCAGCTATCCTACTAAAGC
+       ::::::::::::::::::::::::::::::::: ::::::::::::::::::::::::::
+nad4_d GTGCACATTCCGAAGCATCATTAGTTGGATCTG-TTTACTTGCAGCTATCCTACTAAAGC
+           980       990      1000       1010      1020      1030  
+
+              630       640       650       660       670       680
+nad4_m TTGGAGGAGTGGGGTTGATAAAGGTAGGTACTCCCTTACCTAGCTTTTTATTAAGATTAT
+       ::::::::::::::::::::::::::::::::::::::::::::  :::::::::::   
+nad4_d TTGGAGGAGTGGGGTTGATAAAGGTAGGTACTCCCTTACCTAGC--TTTATTAAGATTAT
+           1040      1050      1060      1070        1080      1090
+
+              690       700       710       720       730       740
+nad4_m CTTTTTTGGGTCTAATTATAGGGCCCTTTTTAACTCTTCGCCAAGTCCATTCTAAACGCC
+                                                                   
+nad4_d CTTTTGGGTCTAATTATAGGGCCCTTTAACTCTTCGCCAAGTCCATTCTAAACGCCTAGT
+             1100      1110      1120      1130      1140      1150
+
+>>nad4_dna                                                (1693 nt)
+rev-comp initn: 432 init1: 281 opt: 350  Z-score: 251.5  bits: 59.3 E(1): 3.3e-12
+banded Smith-Waterman score: 350; 74.6% identity (74.6% similar) in 142 nt overlap (1318-1179:399-538)
+
+            1340      1330      1320       1310      1300          
+nad4_- TTGACAGGCTAAACCATTTACAACTGGTAATCCAAAGAA-AAAAAAAAAAAAAAAAAAAA
+                                     :::::: :: :::::: ::::: :::::::
+nad4_d CGGCTCCAGCTCCAACTCCAGCCCGGCCGTTCCAAAAAAGAAAAAAGAAAAAGAAAAAAA
+      370       380       390       400       410       420        
+
+   1290      1280      1270      1260      1250      1240          
+nad4_- AAAAAAAACAAAACAAAAAAAAAAAAATAAAAAAAAGAAGAAGAAAAAAGAAAACAAAAA
+        ::: ::: :::: ::::::::: ::: ::: :::  :::::  :::::::::: :::: 
+nad4_d GAAAGAAAGAAAAGAAAAAAAAAGAAAAAAAGAAAGAAAGAAAGAAAAAGAAAAGAAAAG
+      430       440       450       460       470       480        
+
+   1230      1220      1210      1200       1190      1180         
+nad4_- GAAAAAAATAAAAGGCCCAAACACTTGACCACGTA-GTCCAAAGTTCCAAATCGCTTCGC
+        ::: ::: :::::    ::: ::: :  :: :::  ::: :: :: :  ::        
+nad4_d AAAAGAAAAAAAAG--ATAAAAACTAGGTCAAGTATTTCCTAATTTTCTTATTAACTTCT
+      490       500         510       520       530       540      
+
+    1170      1160      1150      1140      1130      1120         
+nad4_- TTTGATTTCAATCTCGGACGTAAGAGTAGGTTGGGTGTGGGGTGCCCCCTAATCTTCGTC
+                                                                   
+nad4_d AGGAATAGATCTTTGTTCCTTGTTAACTCCCCTCTTTGTTATTACCTCTGTCTGTCCCAA
+        550       560       570       580       590       600      
+
+>--
+rev-comp initn: 181 init1: 181 opt: 238  Z-score: 178.8  bits: 45.8 E(1): 3.7e-08
+banded Smith-Waterman score: 238; 81.7% identity (81.7% similar) in 71 nt overlap (71-1:1612-1682)
+
+      100        90        80        70        60        50        
+nad4_- AGAAAAAATTAGGAAAAATACTTGACCTAGTTTTTATCTTTTTTTTCTTTTCTTTTCTTT
+                                     :: :: : :: ::::::::::::::: : :
+nad4_d TTGGACTACGTGGTCAAGAGTTTGGGCCTTTTATTTTTTTCTTTTTCTTTTCTTTTTTCT
+            1590      1600      1610      1620      1630      1640 
+
+       40        30        20        10                    
+nad4_- TCTTTTTCTTTCTTTCTTTTTTTTTTTCTTTTTTTTTCTTT           
+       :::: :: ::: ::: ::::::::::: :::: :::: :::           
+nad4_d TCTTCTTTTTTTTTTATTTTTTTTTTTGTTTTGTTTTTTTTTTTCTTTTTTT
+            1650      1660      1670      1680      1690   
+
+
+
+1384 residues in 1 query   sequences
+1693 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:55 2024 done: Tue Sep 24 23:50:55 2024
+ Total Scan time:  0.150 Total Display time:  0.010
+
+Function used was FASTA [36.3.8i May, 2023]
+# fasta atp6_mrna.fasta atp6_dna.fasta
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.8i May, 2023
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: atp6_mrna.fasta
+  1>>>atp6_mrna - 1626 nt
+Library: atp6_dna.fasta
+      798 residues in     1 sequences
+
+Statistics: (shuffled [117]) MLE statistics: Lambda= 0.0710;  K=8.613e-05
+ statistics sampled from 1 (1) to 117 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (1), E-opt: 0.05 (1), width:  16
+ Scan time:  0.140
+
+The best scores are:                                      opt bits E(1)
+atp6_dna                                       ( 798) [f] 3455 371.2 2.4e-106
+atp6_dna                                       ( 798) [r]   83 25.8   0.022
+
+>>atp6_dna                                                (798 nt)
+ initn: 3455 init1: 3455 opt: 3455  Z-score: 1941.8  bits: 371.2 E(1): 2.4e-106
+banded Smith-Waterman score: 3455; 100.0% identity (100.0% similar) in 691 nt overlap (934-1624:1-691)
+
+           910       920       930       940       950       960   
+atp6_m AAAAAAAAAAATAAAAATAAAATAAGAAAGAAATTTTTTTGCTATTTGATCGCTTTTTTC
+                                     ::::::::::::::::::::::::::::::
+atp6_d                               AAATTTTTTTGCTATTTGATCGCTTTTTTC
+                                             10        20        30
+
+           970       980       990      1000      1010      1020   
+atp6_m CTTATACTTTTATCTCTAGCTGAGCTAGTTTCTTCCCTCTATCAATAACTTTACCCCTCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d CTTATACTTTTATCTCTAGCTGAGCTAGTTTCTTCCCTCTATCAATAACTTTACCCCTCT
+               40        50        60        70        80        90
+
+          1030      1040      1050      1060      1070      1080   
+atp6_m TTTTGGTATTAATTTTGCTTCTAATAAATAACGATAATTATGAAACTCTGCCTCTTTATA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d TTTTGGTATTAATTTTGCTTCTAATAAATAACGATAATTATGAAACTCTGCCTCTTTATA
+              100       110       120       130       140       150
+
+          1090      1100      1110      1120      1130      1140   
+atp6_m CTACTAATCGAATCCTAGGTGCTCTATTTTTACTTTGGTGATCTCTTCTTCTCCCAACTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d CTACTAATCGAATCCTAGGTGCTCTATTTTTACTTTGGTGATCTCTTCTTCTCCCAACTT
+              160       170       180       190       200       210
+
+          1150      1160      1170      1180      1190      1200   
+atp6_m TGGGTCCTCTTTTATCAGCTCAACGTTTGGTGCCTGTGGTTTCTATCTTTTTGAGGGCAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d TGGGTCCTCTTTTATCAGCTCAACGTTTGGTGCCTGTGGTTTCTATCTTTTTGAGGGCAG
+              220       230       240       250       260       270
+
+          1210      1220      1230      1240      1250      1260   
+atp6_m CAAGTACAAATTTTCTAGCTCTATCTCCTTGTGGTTTTTCTCTCTTAGCCAATCCATCAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d CAAGTACAAATTTTCTAGCTCTATCTCCTTGTGGTTTTTCTCTCTTAGCCAATCCATCAA
+              280       290       300       310       320       330
+
+          1270      1280      1290      1300      1310      1320   
+atp6_m CTACTATTCCCTTTTCTATTATTGTAATTTTTTCTTCCGTATTTTGAGCTTTTTCTTCGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d CTACTATTCCCTTTTCTATTATTGTAATTTTTTCTTCCGTATTTTGAGCTTTTTCTTCGA
+              340       350       360       370       380       390
+
+          1330      1340      1350      1360      1370      1380   
+atp6_m CTGGGTGAGGCTTCTTAGCACTATGAACTCCTTCAGGGATGCCAGCTCCCCTAAGAAGAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d CTGGGTGAGGCTTCTTAGCACTATGAACTCCTTCAGGGATGCCAGCTCCCCTAAGAAGAA
+              400       410       420       430       440       450
+
+          1390      1400      1410      1420      1430      1440   
+atp6_m TCCTAGCCCCCTTAGAAGTAGCATCATTTTTTCTTCGAGCTCTAATTTTAGGGGGCCGGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d TCCTAGCCCCCTTAGAAGTAGCATCATTTTTTCTTCGAGCTCTAATTTTAGGGGGCCGGG
+              460       470       480       490       500       510
+
+          1450      1460      1470      1480      1490      1500   
+atp6_m TTTCAGCTAATGCCACTGCTGGACACGTGCTGACGGGACTAGTAGGTACCTTTGCAGCCC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d TTTCAGCTAATGCCACTGCTGGACACGTGCTGACGGGACTAGTAGGTACCTTTGCAGCCC
+              520       530       540       550       560       570
+
+          1510      1520      1530      1540      1550      1560   
+atp6_m CCCTATCTATCCCATTTTGACCCCTTTTTGTCTTCTTAGGATTCCTAGAAGCAGCTGTAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d CCCTATCTATCCCATTTTGACCCCTTTTTGTCTTCTTAGGATTCCTAGAAGCAGCTGTAT
+              580       590       600       610       620       630
+
+          1570      1580      1590      1600      1610      1620   
+atp6_m CTGTAGCACAAGCTTATGTGATTACTGTTTTGATTATTAGTACATGAGGAGAAACTGGGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+atp6_d CTGTAGCACAAGCTTATGTGATTACTGTTTTGATTATTAGTACATGAGGAGAAACTGGGG
+              640       650       660       670       680       690
+
+                                                                   
+atp6_m GCG                                                         
+       :                                                           
+atp6_d GATAAAAAAATAAATAAATAAATAAAAAATAAAAATAAATAAATAAATAAATAAAAAAAA
+              700       710       720       730       740       750
+
+>--
+ initn: 148 init1: 148 opt: 194  Z-score: 136.5  bits: 37.2 E(1): 8.5e-06
+banded Smith-Waterman score: 194; 82.0% identity (82.0% similar) in 61 nt overlap (877-936:737-797)
+
+        850       860       870       880        890       900     
+atp6_m TGCTAAGAATATCACTCTAATGCCAGGTGTATAAA-ACAAAAAAAAAAAAAAAAAAAAAA
+                                     ::::: : :::::::::::::::: :::: 
+atp6_d AATAAATAAAAAATAAAAATAAATAAATAAATAAATAAAAAAAAAAAAAAAAAAGAAAAG
+        710       720       730       740       750       760      
+
+         910       920       930       940       950       960     
+atp6_m AAAAAAAAATAAAAATAAAATAAGAAAGAAATTTTTTTGCTATTTGATCGCTTTTTTCCT
+       ::::::::: : ::: ::::  : ::: :::                             
+atp6_d AAAAAAAAACAGAAACAAAAACAAAAAAAAAG                            
+        770       780       790                                    
+
+         970       980       990      1000      1010      1020     
+atp6_m TATACTTTTATCTCTAGCTGAGCTAGTTTCTTCCCTCTATCAATAACTTTACCCCTCTTT
+
+>>atp6_dna                                                (798 nt)
+rev-comp initn: 117 init1:  70 opt:  83  Z-score: 75.1  bits: 25.8 E(1): 0.022
+banded Smith-Waterman score: 83; 63.6% identity (63.6% similar) in 55 nt overlap (1320-1268:718-772)
+
+    1350      1340      1330      1320      1310      1300         
+atp6_- TTCATAGTGCTAAGAAGCCTCACCCAGTCGAAGAAAAAGCTCAAAATACGGAA--GAAAA
+                                     :: :::::     :::::   ::   ::::
+atp6_d GGGGATAAAAAAATAAATAAATAAATAAAAAATAAAAATAAATAAATAAATAAATAAAAA
+       690       700       710       720       730       740       
+
+      1290      1280      1270      1260      1250      1240       
+atp6_- AATTACAATAATAGAAAAGGGAATAGTAGTTGATGGATTGGCTAAGAGAGAAAAACCACA
+       ::  : :: :: :::::::  :: :                                   
+atp6_d AAAAAAAAAAAAAGAAAAGAAAAAAAAACAGAAACAAAAACAAAAAAAAAG         
+       750       760       770       780       790                 
+
+
+
+1626 residues in 1 query   sequences
+798 residues in 1 library sequences
+ Tcomplib [36.3.8i May, 2023] (36 proc in memory [0G])
+ start: Tue Sep 24 23:50:55 2024 done: Tue Sep 24 23:50:55 2024
+ Total Scan time:  0.140 Total Display time:  0.010
+
+Function used was FASTA [36.3.8i May, 2023]
